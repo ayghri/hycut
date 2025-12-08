@@ -1,7 +1,7 @@
 [project]
-name = "HyGEM"
+name = "HyCut"
 version = "0.1.0"
-description = "HyGEM — HyperGeometric Envelope Minimization"
+description = "HyCut — HyperGeometric Graph Cut Bounds"
 authors = [
     {name = "Authors A.",email = "someone@domain.com"}
 ]
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "hygem", from = "."}]
+packages = [{include = "hycut", from = "."}]
 
 
 [tool.poetry.group.dev.dependencies]
